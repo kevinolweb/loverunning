@@ -16,14 +16,41 @@ h1, h2{
 #logo{
     font-size:280%;
     float:left;
+    text-decoration: none;
+    color:inherit;
+    text-transform:uppercase;
 }
 #menu{
     font-size:150%;
     letter-spacing:3px;
+}
+#menu, #logo{
+    line-height:75px;
 }
 
 #menu li{
     float:right;
     list-style:none;
     margin-right:10px;
+}
+#menu a{
+    text-decoration: none;
+    color:inherit;
+    padding-bottom:5px;
+}
+
+#menu li .active{
+    border-bottom:1px solid #3a3a3a;
+    font-weight:600;
+}
+
+#menu a:hover{
+    border-bottom:1px solid #3a3a3a;
+    padding-top:5px;
+    -webkit-transition-property: right;
+    transition-property: right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
 }
