@@ -178,3 +178,13 @@ hr {
     text-align:center;
     float:left;
 }
+#photos{
+    column-count: 4;
+    clear:both;
+    line-height:0;
+    column-gap:0;
+}
+
+#photos >img {
+    width:100%;
+}
