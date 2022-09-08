@@ -5,7 +5,7 @@
     border: none;
 }
 body{
-    background-color: red;
+    background-color: white;
     font-family:Roboto sans-serif;
     color: #3a3a3a;
 }
@@ -97,18 +97,64 @@ margin:30px;
     float:left;
     width:33%;
     padding-top:30px;
-    background:orange;
 }
 #center-about{
     width:33%;
     margin:0 auto;
     padding-top:30px;
-    background: green;
-
 }
 #right-about{
     float:right;
     width:33%;
     padding-top:30px;
-    background:black;
+}
+
+#left-head{
+    float:right;
+    width:60%;
+    margin-bottom:50px;
+    line-height:20px;
+    clear:both;
+}
+#left-head p {
+    text-align:left;
+}
+#left-head h2 {
+    text-align:left;
+}
+#right-head p {
+    text-align:right;
+}
+#right-head h2 {
+    text-align:right;
+}
+hr {
+    border-top:1px solid #3a3a3a;
+    width:100%;
+    margin:5px 0;
+}
+
+#right-head{
+    float:left;
+    width:60%;
+    margin-bottom:50px;
+    line-height:20px;
+    clear:both;
+}
+
+#center-head{
+    width:300px;
+    height:300px;
+    padding:30px;
+    border-style:solid;
+    border-width:1px;
+    border-radius:50%;
+    border-color: #ccc;
+    margin:0 auto;
+}
+
+#center-image{
+    background: url('https://codeinstitute.s3.amazonaws.com/CSSEssentials/ethos-center-image.jpg') no-repeat center center;
+    height:100%;
+    border-radius:50%;
 }
