@@ -87,3 +87,28 @@ h1, h2{
     overflow:hidden;
     position:relative;
 }
+
+#about-sect{
+height:600px;
+margin:30px;
+}
+
+#left-about{
+    float:left;
+    width:33%;
+    padding-top:30px;
+    background:orange;
+}
+#center-about{
+    width:33%;
+    margin:0 auto;
+    padding-top:30px;
+    background: green;
+
+}
+#right-about{
+    float:right;
+    width:33%;
+    padding-top:30px;
+    background:black;
+}
